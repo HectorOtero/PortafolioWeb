@@ -12,18 +12,52 @@
     height: auto;
 }
 
-body{
+html{
     font-family: 'Josefin Sans', sans-serif;
 }
+body{
+    
+    text-align: justify;
+}
 
-.top-img{
+.img-navbar{
+    border-radius: 1rem;
+    border-color: blue;
+}
+
+.banner{
     
     background-image: url("../img/FondoHector.png");
     background-color: #cccccc;
-    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 42rem;
+    max-width: auto;
     
+}
+
+.foto-mia{
+    max-width: 20rem;
+    max-height: auto;
+    border-radius: 2rem;
+    border-color: black;
+}
+
+.img-card{
+    max-width: auto;
+    max-height: 11rem;
+}
+
+@media (max-width: 1000px) {
+    .banner{
+        max-width: 1000px;
+        max-height: auto;
+    }    
+}
+
+.texto-acerca-de-mi{
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;;
 }

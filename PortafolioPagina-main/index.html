@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="./AOS/aos.css">
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
-<body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body class="bg-primary-subtle">
+        <nav class="navbar navbar-expand-lg sticky-top bg-info">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                <img src="./img/logo.jpg" alt="">
+                <img class="img-navbar" src="./img/DreamShaper_v7_Las_Iniciales_H_O_y_C_con_un_estilo_de_caligraf_1.jpg" alt="Logo">
                 </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,55 +26,150 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class=" navbar-brand mx-5 nav-link active" aria-current="page" href="#Inicio">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="navbar-brand mx-5 nav-link" href="#Acercademi">Acerca de Mi</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  <li class="nav-item"> 
+                      <li><a class="navbar-brand mx-5 nav-link" href="#Habilidades">Habilidades</a></li>
+                      <li><a class="navbar-brand mx-5 nav-link" href="#ProyectosTerminados">Proyectos Terminados</a></li>
+                      <li><a class="navbar-brand mx-5 nav-link" href="#Proyectosenproceso">Proyectos en proceso</a></li>
+                      <li><a class="navbar-brand mx-5 nav-link" href="#Contacto">Contacto</a></li>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
             </div>
         </nav>
+      <section id="Inicio">
         <header>
-            <div class="top-img"></div>             
+          <section class="banner">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                </div>
+              </div>
+            </div>
+          </section>              
         </header>
-    </header>
+      </section>
     <main>
         <!--Inicio-->       
-        <section class="acerca py-5">
+        <section class="acerca py-5 " id="Acercademi">
             <div class="container">
-                <h2 class="text-center">Acerca de mi</h2>
+                <h2 class="text-center texto-acerca-de-mi">Acerca de mi</h2>
                 <div class="row py-5">
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <p>Hola, mi nombre es Hector Otero Caballero y estoy actualmente estudiando la carrera de ingenieria de desarrollo de software y videojuegos, he trabajado en diversos proyectos de creación de videojuegos usando el lenguaje de progrmación de C#, también me encuentro aprendiendo lenguaje html y Javascript. Hasta este momento he participado en 2 Game Jams.  
-                        </p>
+                        <h4 class="texto-acerca-de-mi">Hola, mi nombre es Hector Otero Caballero y estoy actualmente estudiando la carrera de ingenieria de desarrollo de software y videojuegos, he trabajado en diversos proyectos de creación de videojuegos usando el lenguaje de progrmación de C#, también me encuentro aprendiendo lenguaje html y Javascript. Hasta este momento he participado en 2 Game Jams.  
+                        </h4>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12">
-                        <img src="./img/YO.JPG" alt="YO">
+                        <img class="foto-mia mx-5 rounded mx-auto d-block" src="./img/SHo.png" alt="YO" >
                     </div>
                 </div>
             </div>
         </section>
         <!--/Inicio-->
+        <!--Habilidades-->
+        <section class="Habilidades" id="Habilidades">
+          <div class="container my-5">
+            <h2 class="text-center texto-acerca-de-mi"> Habilidades</h2>
+            <div class="row my-5">
+              <div class="col-lg-12 col-md-12 col-sm-12 ">
+                <table class="table table-dark table-borderless text-center ">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Tema</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>🟪 C#</td>
+                      <td>Otto</td>
+                      <td>@mdo</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>@fat</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td colspan="2">Larry the Bird</td>
+                      <td>@twitter</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Habilidades-->
         <!--Proyectos-->
+        <section class="ProyectosTerminados" id="ProyectosTerminados">
+          <div class="container my-5">
+            <h2 class="text-center texto-acerca-de-mi">Proyectos Terminados</h2>
+            <div class="row">
+              <div class="col"></div>
+            </div>
+          </div>
+        </section>
+        <!--Proyectos-->
+        <!--Proyectos en proceso-->
+        <section class="Proyectosenproceso" id="Proyectosenproceso">
+          <div class="container my-5">
+            <h2 class="text-center texto-acerca-de-mi">Proyectos en Proceso</h2>
+            <div class="row my-5">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 19rem;">
+                  <img src="./img/EmpathyMap.png" class="card-img-top img-card" alt="EmpathyMap">
+                  <div class="card-body">
+                    <h5 class="card-title">Empathy Map</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.figma.com/file/ECs52LKrTijpFVhkdeuNTR/Sistema-Operativos?type=design&node-id=0-1&mode=design&t=AfkdyyMyI0FOVoH0-0" class="btn btn-outline-dark rounded mx-auto d-block ">Ver archivo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 19rem;">
+                  <img src="./img/CustomerMap.png" class="card-img-top img-card" alt="CustomerMap">
+                  <div class="card-body">
+                    <h5 class="card-title">Customer Map</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark rounded mx-auto d-block ">Ver archivo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 19rem;">
+                  <img src="./img/JourneyMap.png" class="card-img-top img-card" alt="JourneyMap">
+                  <div class="card-body">
+                    <h5 class="card-title">Journey Map</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark rounded mx-auto d-block ">Ver archivo</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card" style="width: 19rem;">
+                  <img src="..." class="card-img-top" alt="IdealCostumer">
+                  <div class="card-body">
+                    <h5 class="card-title">Ideal Costumer</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-outline-dark rounded mx-auto d-block ">Ver archivo</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Proyectos en proceso-->
+
     </main>
     <footer>
         
