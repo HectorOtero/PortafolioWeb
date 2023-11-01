@@ -11,3 +11,19 @@
     width: 12rem;
     height: auto;
 }
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.top-img{
+    
+    background-image: url("../img/FondoHector.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
