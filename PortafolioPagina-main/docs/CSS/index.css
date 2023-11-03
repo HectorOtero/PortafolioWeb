@@ -37,7 +37,7 @@ body{
 
 .banner{
     
-    background-image: url("../img/Banner.webp");
+    background-image: url("./img/Banner.webp");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
