@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Varela+Round&display=swap');
 
-.navbar img{
-    width: 7rem;
-    height: auto;
-}
-
 body{ 
     text-align: justify;
     background-color: #C2C0C9;
@@ -37,7 +32,7 @@ body{
 
 .banner{
     
-    background-image: url("./img/Banner.webp");
+    background-image: url("../img/Banner.webp");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -51,7 +46,7 @@ body{
     
     background-position: center;
     background-repeat: no-repeat;
-    background-size:3rem;
+    background-size:cover;
     position: relative;
     height: 36rem;
     max-width: auto;
@@ -59,8 +54,6 @@ body{
 }
 
 .foto-mia{
-    max-width: 12rem;
-    max-height: auto;
     border-radius: 2rem;
     border-color: black;
 }
@@ -78,7 +71,7 @@ body{
 }
 
 .texto-acerca-de-mi{
-    color: white;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
     font-family: Varela Round;
 }
